@@ -71,7 +71,7 @@ apt-get install -y curl jq unzip coreutils
 # USE_AGE=1 时需要：
 apt-get install -y age
 ```
-**安装age后会得到公钥和私钥，公钥存Action的secret，名字叫`AGE_RECIPIENT`。私钥存VPS本地，路径填入`.env`文件的`AGE_IDENTITY="/etc/age/xxx.key"`。
+**安装age后会得到公钥和私钥，公钥存Action的secret，名字叫`AGE_RECIPIENT`。私钥存VPS本地，路径填入`.env`文件的`AGE_IDENTITY="/etc/age/xxx.key"`。**
 
 ### 2) 放置脚本（放哪都能跑）
 
